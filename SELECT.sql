@@ -1,0 +1,15 @@
+-- #SELECTING ALL TABLES FROM DATABASE
+
+SELECT * FROM "orders";
+
+-- #SELECTING SPECIFIX TABLE FROM DATABASE
+
+SELECT "product" FROM "orders";
+
+-- #SELECTING WITH A LIMIT KEYWORD
+
+SELECT "product" FROM "orders" LIMIT 3;
+
+-- #SELECTING TWO COLUMNS FROM THE TABLE
+
+SELECT "product","user_id","amount" FROM "orders" WHERE "amount" > 1500;

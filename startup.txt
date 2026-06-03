@@ -1,0 +1,11 @@
+#STARTING THE SQLITE ENVIRONMENT
+
+-> sqlite3 practice.db 
+
+#RUNNING THE .sql file
+
+-> sqlite3 practice.db < simple.sql
+
+#RUNNING WITH GOOD STRUCTURE
+
+-> sqlite3 -column -header practice.db < SELECT.sql
