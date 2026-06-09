@@ -6,4 +6,9 @@ SELECT "country" FROM "users" WHERE ("country" != 'India');
 --                         OR
 SELECT "country" FROM "users" WHERE ("country" <> 'India');
 --                         OR
-SELECT "country" FROM "users" WHERE NOT "country" = 'India';
+
+
+-- #SELECTING IN RANGE USING RELATIONAL OPERATORS
+SELECT * FROM "users" WHERE "id" >= 1 AND "id" <= 3;
+--                     OR
+SELECT * FROM "users" where "id" between 1 and 4;
